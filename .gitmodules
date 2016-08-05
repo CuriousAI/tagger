@@ -1,0 +1,3 @@
+[submodule "ladder"]
+	path = ladder
+	url = git@github.com:CuriousAI/ladder.git

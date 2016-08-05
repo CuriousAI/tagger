@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+.idea/
+.idea/**/*
+results
+results/**/*
+.ipynb_checkpoints
+*.h5
