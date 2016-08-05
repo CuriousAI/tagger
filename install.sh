@@ -78,7 +78,7 @@ echo "...environment setup done!"
 echo "Step 3:"
 echo "...Checking environment works"
 source activate $ENV_NAME
-python -c "import theano.tensor as T; x = T.dscalar('x'); y = T.dscalar('y'); z = x + y; assert 2 == int(z.eval({x: 1, y: 1}))"
+python -c "import theano.tensor as T; x = T.fscalar('x'); y = T.fscalar('y'); z = x + y; assert 2 == int(z.eval({x: 1, y: 1}))"
 echo "theano installation seems to be OK"
 echo "Omitting Fuels setup validation, please refer to http://fuel.readthedocs.io/en/latest/built_in_datasets.html#environment-variable"
 echo "If the problem persists, please open an issue here at github!"
