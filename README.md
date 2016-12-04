@@ -5,7 +5,7 @@
 We present a framework called TAG (iTerative Amortized Grouping) for efficient perceptual inference
 that explicitly reasons about the segmentation of its inputs and features. Tagger is the [Ladder](https://github.com/CuriousAI/ladder)
 network wrapped in the TAG framework. This is the source code to replicate all experiments in the Tagger [paper](https://arxiv.org/abs/1606.06724)!
-Tagger is developed by [The Curious AI Company](http://http://www.thecuriousaicompany.com) with 
+Tagger is developed by [The Curious AI Company](http://www.thecuriousaicompany.com) with 
 collaborations from Klaus Greff and Jürgen Schmidhuber, Swiss AI Lab [IDSIA](http://www.idsia.ch).
 The full length paper can be found at [arXiv:1606.06724](https://arxiv.org/abs/1606.06724). Please use the following information for citation,
 ```
